@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Question
 
-## Getting Started
+Welcome to the Interactive Question Platform, an open-source project led by the
+IEEE Computer Society at VIT Chennai. This platform aims to provide a
+collaborative space for users to discuss, index, and search for questions
+interactively. Whether you're a student seeking answers, an educator looking to
+facilitate discussions, or a developer interested in contributing to this
+project, you've come to the right place.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Technical architecture
+- Feature
+- Getting Started
+- Installation
+- License
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This platform is built with the following goals in mind:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Interactivity**: Users can discuss questions, share their insights, and
+collaborate to find solutions or gain deeper insights into a topic.
 
-## Learn More
+**Indexing**: Questions are categorized and tagged, making it easier to find
+related questions and discussions. This helps users quickly access relevant
+information.
 
-To learn more about Next.js, take a look at the following resources:
+**Searchability**: A powerful search engine enables users to find questions,
+answers, and discussions efficiently. Advanced search options and filters
+enhance the search experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Open Source**: This project is open source, encouraging contributions from
+developers worldwide. Whether you want to improve existing features or add new
+ones, you're welcome to join the community.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Reach us
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Website](https://ieeecsvitc.com)
+[Instagram](https://instagram.com/compsoc.vitcc)
