@@ -7,6 +7,11 @@ interactively. Whether you're a student seeking answers, an educator looking to
 facilitate discussions, or a developer interested in contributing to this
 project, you've come to the right place.
 
+
+## Inspiration
+
+This project is heavily inspired through the various efforts of [StackOverflow](https://stackoverflow.com/) and [StackExchange](https://stackexchange.com/)
+
 ## Table of Contents
 
 - Technical architecture
