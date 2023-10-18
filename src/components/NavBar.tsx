@@ -5,12 +5,16 @@ import "../styles/globals.css"
 
 
 
-const NavBar = () => {
+const NavBar = (props) => {
+
+    let loggedInStatus=props.loggedInStatus
 
     let [userMenuStatus, displayUserMenu] = React.useState(false)
     let [mobileMenuStatus, displayMobileMenu] = React.useState(true)
     return (
-        <nav className="bg-gray-800">
+        <nav style={{
+            background: "linear-gradient(180deg, #090A23 26.14%, rgba(19, 32, 108, 0.00) 72.73%)"
+        }} className="">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -98,6 +102,8 @@ const NavBar = () => {
                             </div>
                         </div>
                     </div>
+                   {loggedInStatus ?
+                   
                     <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                         <button
                             type="button"
@@ -156,7 +162,7 @@ const NavBar = () => {
 
                             {userMenuStatus ? 
                             <div
-                                className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5"
+                                className="z-10 origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5"
                                 role="menu"
                                 aria-orientation="vertical"
                                 aria-labelledby="user-menu"
@@ -187,7 +193,7 @@ const NavBar = () => {
                             : ""
 }
                         </div>
-                    </div>
+                    </div> :" "}
                 </div>
             </div>
 
