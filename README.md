@@ -39,6 +39,10 @@ enhance the search experience.
 developers worldwide. Whether you want to improve existing features or add new
 ones, you're welcome to join the community.
 
+## Constraints
+ - Navigation Menu provided as NavBar Component has to be used in every web page
+   
+
 ## Reach us
 
 [Website](https://ieeecsvitc.com)
